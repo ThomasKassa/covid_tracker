@@ -2,9 +2,10 @@
 import axios from  'axios'
 
 // ---- File Imports ----
-
-
 const url = 'https://covid19.mathdro.id/api'
+
+
+
 
 export const fetchData = async (country) =>{
   let urlChange = url
